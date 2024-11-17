@@ -6,7 +6,7 @@ descriptionHTML: '<span style="color:var(--description-font-color);">破軍星�
 
 ![](/imgs/ziwei402.png)
 
-# 紫微 14 主星-認識破軍星
+# 紫微 14 主星-破軍星
 
 化氣為耗，五行屬癸水，乃為多損之星，代表著損耗、子女、晚輩、下屬
 

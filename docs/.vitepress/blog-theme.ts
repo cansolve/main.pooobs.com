@@ -84,12 +84,12 @@ const blogTheme = getThemeConfig({
       { type: 'text', content: '👇大師line👇---👇大師微信👇' },
       {
         type: 'image',
-        src: './imgs/line.jpg',
+        src: '/blog/imgs/line.jpg',
         style: 'display: inline-block;width:46%;padding-left:6px'
       },
       {
         type: 'image',
-        src: './imgs/wechat.png',
+        src: '/blog/imgs/wechat.png',
         style: 'display: inline-block;width:46%;padding-left:6px'
       },
       {
