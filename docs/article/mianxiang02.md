@@ -48,7 +48,7 @@ sidebar: false
 - [第二篇 兄弟宮](/article/mianxiang02.html)
 - [第三篇 夫妻宮](/article/mianxiang03.html)
 - [第四篇 子女宮]
-- [第五篇 財帛宮]
+- [第五篇 財帛宮](/article/mianxiang05.html)
 - [第六篇 疾厄宮]
 - [第七篇 遷移宮]
 - [第八篇 交友宮]
