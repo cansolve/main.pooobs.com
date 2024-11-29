@@ -13,6 +13,10 @@ export default defineConfig({
     lastUpdated: true,
     head: [
         ['link', { rel: 'icon', href: `${base}favicon.ico` }],
+        ['meta', { name: 'keywords', content: '关键词1, 关键词2, 关键词3' }],
+        ['meta', { name: 'author', content: 'zhanlingxingyu' }],
+        ['meta', { property: 'og:title', content: '占靈星語' }],
+        ['meta', { property: 'og:description', content: '專業的姻緣占卜平台，為您提供準確的婚姻緣分預測。通過生日時刻、星座愛情分析等多種方式，幫助您洞察未來的愛情與婚姻走向。立即體驗在線姻緣測算，瞭解您與另一半的緣分深淺，找到屬於您的愛情歸宿。' }],
         [
             'script',
             { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-8XEXZMTK20' }
@@ -26,8 +30,9 @@ export default defineConfig({
             gtag('config', 'G-8XEXZMTK20');`
         ]
     ],
-    description: '專業的姻緣占卜平台，為您提供準確的婚姻緣分預測。通過生日時刻、星座愛情分析等多種方式，幫助您洞察未來的愛情與婚姻走向。立即體驗在線姻緣測算，瞭解您與另一半的緣分深淺，找到屬於您的愛情歸宿。',
-
+    sitemap: {
+        hostname: 'https://www.pooobs.com'
+    },
     themeConfig: {
         // 展示 2,3 级标题在目录中
         outline: {
@@ -78,6 +83,13 @@ export default defineConfig({
             lang: 'en',
             link: '/en/',
             title: 'zhanlingxingyu',
+            head: [
+                ['meta', { name: 'keywords', content: '1111, 2222, 333' }],
+                ['meta', { name: 'author', content: 'zhanlingxingyu' }],
+                ['meta', { property: 'og:title', content: 'zhanlingxingyu' }],
+                ['meta', { property: 'og:description', content: 'test' }],
+
+            ],
             themeConfig: {
                 nav: [
                     { text: 'Home', link: '/' },
