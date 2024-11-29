@@ -1,5 +1,4 @@
 ---
-sticky: 1
 description: 財運和婚姻
 descriptionHTML: '
 <span style="color:var(--description-font-color);"> 夫妻又叫伴侶。伴侶的“侶”字很有意思，它是由兩個“口”字和一個“人”字組成的。</span>'

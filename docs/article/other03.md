@@ -1,5 +1,4 @@
 ---
-sticky: 1
 description: 從官祿宮看另一半長相氣質
 descriptionHTML: '
 <span style="color:var(--description-font-color);"> 官禄宫在八字中象征日主的事业和内在气质，同时可以反映配偶的外貌、性格及气质特征，需结合地支五行、桃花星等综合判断。</span>'

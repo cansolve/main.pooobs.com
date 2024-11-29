@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import googleAnalyticsPlugin from 'vitepress-plugin-google-analytics';
 
 import { blogTheme } from './blog-theme'
 
@@ -11,10 +12,20 @@ export default defineConfig({
     extends: blogTheme,
     lastUpdated: true,
     head: [
-        ['link', { rel: 'icon', href: `${base}favicon.ico` }]
+        ['link', { rel: 'icon', href: `${base}favicon.ico` }],
+        [
+            'script',
+            { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-8XEXZMTK20' }
+        ],
+        [
+            'script',
+            {},
+            `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-8XEXZMTK20');`
+        ]
     ],
-    lang: 'zh-cn',
-    title: '占靈星語',
     description: '專業的姻緣占卜平台，為您提供準確的婚姻緣分預測。通過生日時刻、星座愛情分析等多種方式，幫助您洞察未來的愛情與婚姻走向。立即體驗在線姻緣測算，瞭解您與另一半的緣分深淺，找到屬於您的愛情歸宿。',
 
     themeConfig: {
@@ -23,6 +34,7 @@ export default defineConfig({
             level: [2, 3],
             label: '目录'
         },
+
         // 默认文案修改
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '相关文章',
@@ -58,12 +70,25 @@ export default defineConfig({
     locales: {
         root: {
             label: '简体中文',
-            lang: 'zh-cn'
+            lang: 'zh-cn',
+            title: '占靈星語',
         },
         en: {
             label: 'English',
             lang: 'en',
-            link: '/en/'
+            link: '/en/',
+            title: 'zhanlingxingyu',
+            themeConfig: {
+                nav: [
+                    { text: 'Home', link: '/' },
+                    {
+                        text: 'Free calculation',
+                        items: [
+                            { text: 'Marriage Divination', link: 'https://www.pooobs.com/home' },
+                        ]
+                    }
+                ],
+            }
         }
     },
 })

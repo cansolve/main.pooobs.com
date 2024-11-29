@@ -1,5 +1,4 @@
 ---
-sticky: 4
 description: 八字不合能結婚嗎？要注意哪些呢
 descriptionHTML: '
 <span style="color:var(--description-font-color);">生辰八字不合，意思就是新人八字缺少共性，性格脾氣、處事原則等方面，都存在着很多不同</span>'
