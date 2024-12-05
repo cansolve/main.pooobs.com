@@ -84,10 +84,10 @@ export default defineConfig({
             link: '/en/',
             title: 'zhanlingxingyu',
             head: [
-                ['meta', { name: 'keywords', content: '1111, 2222, 333' }],
+                ['meta', { name: 'keywords', content: 'chinese zodiac,zodiac signs,symbols,facts,chinese,12 Zodiac Signs,Dates,Personality,Traits,Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig.' }],
                 ['meta', { name: 'author', content: 'zhanlingxingyu' }],
                 ['meta', { property: 'og:title', content: 'zhanlingxingyu' }],
-                ['meta', { property: 'og:description', content: 'test' }],
+                ['meta', { property: 'og:description', content: 'free love reading,for free,love reading,love spreads,zodiac offers the right amount of your insight specific situation by chinese style.say good bye to your romantic worries.12 Zodiac Signs: Dates and Personality Traits of Each Star Sign.' }],
 
             ],
             themeConfig: {

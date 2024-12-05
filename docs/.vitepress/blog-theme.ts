@@ -51,14 +51,14 @@ export const blogTheme = getThemeConfig({
         message: footerHTML([
             {
                 text: '使用條款 | ',
-                link: '/terms.html',
+                link: '/blog/terms.html',
             },
             {
                 text: '隱私協議',
-                link: '/privacy.html'
+                link: '/blog/privacy.html'
             }
         ]),
-        copyright: 'Copyright © 2024占靈星語 版權所有',
+        copyright: 'Copyright © 2023-2024占靈星語 版權所有',
 
     },
 
@@ -105,11 +105,11 @@ export const blogTheme = getThemeConfig({
                 type: 'text',
                 content: '歡迎大家聯繫我們交流'
             },
-            //   {
+            // {
             //     type: 'text',
             //     content: '文末有二維碼',
             //     style: 'padding-top:0'
-            //   },
+            // },
             {
                 type: 'button',
                 content: '姻緣快測',
