@@ -1,5 +1,6 @@
 ---
 hidden: true
+sidebar: false
 ---
 
 # 尊敬的用戶，歡迎閱讀本協議：

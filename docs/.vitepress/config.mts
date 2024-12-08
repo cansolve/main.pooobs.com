@@ -1,6 +1,4 @@
 import { defineConfig } from 'vitepress'
-import googleAnalyticsPlugin from 'vitepress-plugin-google-analytics';
-
 import { blogTheme } from './blog-theme'
 
 const base = '/blog/'
@@ -10,6 +8,7 @@ const base = '/blog/'
 export default defineConfig({
     base,
     extends: blogTheme,
+
     lastUpdated: true,
     head: [
         ['link', { rel: 'icon', href: `${base}favicon.ico` }],
@@ -54,12 +53,18 @@ export default defineConfig({
         // },
         nav: [
             { text: '首頁', link: '/' },
+            { text: '品牌故事', link: '/brand-story' },
             {
                 text: '免費測算',
                 items: [
                     { text: '姻緣占卜', link: 'https://www.pooobs.com/home' },
                 ]
-            }
+            },
+            // {
+            //     text: '登录',
+            //     link: '',
+            //     customComponent: '<LoginButton />', // 使用自定义按钮组件
+            // },
         ],
         socialLinks: [
             {
@@ -93,6 +98,7 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     { text: 'Home', link: '/' },
+                    { text: 'Brand Story', link: '/brand-story' },
                     {
                         text: 'Free calculation',
                         items: [
