@@ -110,11 +110,11 @@ export const blogTheme = getThemeConfig({
             //     content: '文末有二維碼',
             //     style: 'padding-top:0'
             // },
-            {
-                type: 'button',
-                content: '姻緣快測',
-                link: 'https://www.pooobs.com/home'
-            },
+            // {
+            //     type: 'button',
+            //     content: '姻緣快測',
+            //     link: 'https://www.pooobs.com/home'
+            // },
             //   {
             //     type: 'button',
             //     content: '聯繫我們',

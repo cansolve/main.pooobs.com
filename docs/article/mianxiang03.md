@@ -5,7 +5,6 @@ descriptionHTML: '
 <span style="color:var(--description-font-color);">夫妻宮是面相十二宮之一，位於眉毛尾部到太陽穴之間的區域，又稱為奸門。夫妻宮象徵一個人的婚姻狀況、伴侶關係、感情運勢、家庭和諧，以及配偶的性格與對婚姻的影響。</span>'
 tag:
  - 面相學
-top: 1
 sidebar: false
 ---
 

@@ -5,7 +5,6 @@ descriptionHTML: '
 cover: https://images.lnka.tw/images/article/20240113210223.webp
 tag:
  - 紫微斗數
-top: 2
 sidebar: false
 ---
 

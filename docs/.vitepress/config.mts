@@ -54,12 +54,12 @@ export default defineConfig({
         nav: [
             { text: '首頁', link: '/' },
             { text: '品牌故事', link: '/brand-story' },
-            {
-                text: '免費測算',
-                items: [
-                    { text: '姻緣占卜', link: 'https://www.pooobs.com/home' },
-                ]
-            },
+            // {
+            //     text: '免費測算',
+            //     items: [
+            //         { text: '姻緣占卜', link: 'https://www.pooobs.com/home' },
+            //     ]
+            // },
             // {
             //     text: '登录',
             //     link: '',
