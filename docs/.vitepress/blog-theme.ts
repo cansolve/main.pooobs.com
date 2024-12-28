@@ -90,17 +90,17 @@ export const blogTheme = getThemeConfig({
     popover: {
         title: '公告',
         body: [
-            { type: 'text', content: '👇大師line👇---👇大師微信👇' },
+            { type: 'text', content: '👇---大師line---👇' },
             {
                 type: 'image',
                 src: '/blog/imgs/line.jpg',
                 style: 'display: inline-block;width:46%;padding-left:6px'
             },
-            {
-                type: 'image',
-                src: '/blog/imgs/wechat.png',
-                style: 'display: inline-block;width:46%;padding-left:6px'
-            },
+            // {
+            //     type: 'image',
+            //     src: '/blog/imgs/wechat.png',
+            //     style: 'display: inline-block;width:46%;padding-left:6px'
+            // },
             {
                 type: 'text',
                 content: '歡迎大家聯繫我們交流'
@@ -128,17 +128,17 @@ export const blogTheme = getThemeConfig({
             en: {
                 title: 'Announcement',
                 body: [
-                    { type: 'text', content: '👇Line👇-----👇Wechat👇' },
+                    { type: 'text', content: '👇---Line---👇' },
                     {
                         type: 'image',
                         src: '/blog/imgs/line.jpg',
                         style: 'display: inline-block;width:46%;padding-left:6px'
                     },
-                    {
-                        type: 'image',
-                        src: '/blog/imgs/wechat.png',
-                        style: 'display: inline-block;width:46%;padding-left:6px'
-                    },
+                    // {
+                    //     type: 'image',
+                    //     src: '/blog/imgs/wechat.png',
+                    //     style: 'display: inline-block;width:46%;padding-left:6px'
+                    // },
                     {
                         type: 'button',
                         content: 'Marriage Quick Test',
